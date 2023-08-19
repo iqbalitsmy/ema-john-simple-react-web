@@ -5,9 +5,16 @@
     top: 0;
 }
 
+.cart .cart-title {
+    font-size: 50px;
+}
+
+.cart .cart-details {
+    font-size: 21px;
+}
+
 .btn-clear-cart {
     display: flex;
-    margin: 10px auto;
     width: 90%;
     justify-content: space-between;
     align-items: center;
@@ -15,11 +22,27 @@
     color: white;
     background: #FF3030;
     padding: 5px 10px;
+    margin-bottom: 16px;
 }
 
-.btn-clear-cart span {
+.btn-clear-cart span,
+.btn-proceed span {
     font-family: Lato;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
+}
+
+.btn-proceed {
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+    background: #F90;
+    padding: 5px 10px;
+}
+.btn-proceed a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
